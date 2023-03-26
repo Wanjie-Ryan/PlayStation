@@ -27,7 +27,7 @@ function nav() {
 
               <div className = 'left'>
 
-                <div className="icon"><FaPlaystation/></div>
+                <FaPlaystation className='ps-icon'/>
 
                 <label className="options">Games</label>
                 <label className="options">Hardware</label>
