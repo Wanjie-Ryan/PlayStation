@@ -83,15 +83,17 @@
 
 .outline-search{
 
-    display: inline-block;
+    /* display: inline-block; */
+    background-color: rgba(0, 112, 209);
+    width:100px;
     
 }
 
-.btn-search{
+/* .btn-search{
 
     background-color: rgba(0, 112, 209);
     
-}
+} */
 
 .searchbtn{
 
@@ -119,6 +121,17 @@
     border:1px solid #999;
     padding:1rem;
     width:400px;
+    display: flex;
+}
+
+.lbl-com{
+
+    width:70px
+}
+
+.input{
+
+    width:150px;
 }
 
 .es label{
@@ -135,11 +148,13 @@
 }
 
 
-.line{
+/* .line{
 
     height:2px;
     color:#999;
-}
+    display: flex;
+    flex-direction: column;
+} */
 
 .searching{
 

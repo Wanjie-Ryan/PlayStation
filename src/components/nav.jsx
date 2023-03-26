@@ -47,6 +47,12 @@ function Nav() {
 
 
 
+  const [search, setsearch] = useState(false)
+
+  
+
+
+
   
   
   return (
@@ -153,11 +159,21 @@ function Nav() {
 
                   <div className="expanded-search">
 
-                    <div className="es">
+                    <div className="es" onClick={showsearch}>
 
+                        <div className="lbl-com">
+                          
                         <label>PlayStation.com <RiArrowDropDownLine className='dropdown'/></label>
+
+                        </div>
+
                         <span className="line"></span>
+
+
+                        <div className="input">
+                          
                         <input type="text" placeholder ='Search PlayStation.com ' className="searching" />
+                        </div>
 
                        <div className='outline-search'>
                         <AiOutlineSearch className='search btn-search'/>
