@@ -271,6 +271,68 @@ function Nav() {
 
 
             </div>
+
+
+
+                          {/* FOR THE SERVICES */}
+
+
+
+
+            <div className = {hardwareclassname}>
+
+                    <div className="inner-products">
+
+                        <div className="child-products">
+
+                            <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                            <p>PS5</p>
+
+                        </div>
+
+                        <div className="child-products">
+
+                            <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                            <p>PS4</p>
+
+                        </div>
+
+
+                        <div className="child-products">
+
+                            <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                            <p>PS VR2</p>
+
+                        </div>
+
+                    </div>
+
+
+
+                  <div className="line"></div>
+
+                  <div className ='categories'>
+
+                    <p> <MdCircle className='md-circle'/> DualSense Wireless Controller</p>
+
+                    <p> <MdCircle className='md-circle'/> PULSE 3D wireless headset</p>
+
+                    <p> <MdCircle className='md-circle'/> DUALSHOCK 4 wireless controller</p>
+
+                    <p> <MdCircle className='md-circle'/> PS5 & PS4 accessories</p>
+
+                    <p> <MdCircle className='md-circle'/> PlayStation VR</p>
+
+                  </div>
+
+
+
+
+            </div>
+            
             
             
             
