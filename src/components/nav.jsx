@@ -32,6 +32,19 @@ function Nav() {
   }
 
   const hardwareclassname = Toggle ? 'hardware-products' : 'hidehardware-products'
+
+
+  const [Toggleservice, setToggleservice] = useState(false)
+
+
+
+  const showservice =()=>{
+
+    setToggleservice(!Toggleservice)
+  }
+
+  const serviceclassname = Toggleservice ? 'service-products' : 'hideservice-products'
+  
   
   return (
 
@@ -82,7 +95,10 @@ function Nav() {
 
                 <div className="services">
 
-                <label className="options">Services <RiArrowDropDownLine className='dropdown'/> </label>
+                <div onClick={showservice}>
+                  
+                  <label className="options">Services <RiArrowDropDownLine className='dropdown'/> </label>
+                </div>
 
                 </div>
 
@@ -279,7 +295,7 @@ function Nav() {
 
 
 
-            <div className = {hardwareclassname}>
+            <div className = {serviceclassname}>
 
                     <div className="inner-products">
 

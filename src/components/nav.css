@@ -138,6 +138,35 @@
 
 }
 
+
+.service-products{
+
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* display: none; */
+    /* opacity: 1; */
+    /* visibility: visible; */
+    transition: all 0.5s ease-in-out 0.1s;
+
+
+
+}
+
+.hideservice-products{
+
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    /* opacity:0; */
+    /* visibility: hidden; */
+    transition: all 0.5s ease-in-out 0.1s;
+
+}
+
 .line{
 
     width:100%;
