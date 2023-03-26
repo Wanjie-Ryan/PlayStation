@@ -4,6 +4,7 @@ import {FaPlaystation} from 'react-icons/fa'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {RiArrowDropDownLine} from 'react-icons/ri'
 import ps5 from '../Pics/PS5.png'
+import {MdCircle} from 'react-icons/md'
 
 
 function nav() {
@@ -46,39 +47,45 @@ function nav() {
 
                   <div className = 'products'>
 
-
-                  <img src = {ps5} className ='img-products' alt = 'ps5'/>
-
-                  <p>PS5</p>
+                    
 
 
-                  <img src = {ps5} className ='img-products' alt = 'ps5'/>
+                        <img src = {ps5} className ='img-products' alt = 'ps5'/>
 
-                  <p>PS4</p>
-
-                  <img src = {ps5} className ='img-products' alt = 'ps5'/>
-
-                  <p>PS VR2</p>
+                        <p>PS5</p>
 
 
-                  <img src = {ps5} className ='img-products' alt = 'ps5'/>
+                        <img src = {ps5} className ='img-products' alt = 'ps5'/>
 
-                  <p>PS PLUS</p>
+                        <p>PS4</p>
 
-                  <img src = {ps5} className ='img-products' alt = 'ps5'/>
+                        <img src = {ps5} className ='img-products' alt = 'ps5'/>
 
-                  <p>BUY GAMES</p>
+                        <p>PS VR2</p>
+
+
+                        <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                        <p>PS PLUS</p>
+
+                        <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                        <p>BUY GAMES</p>
 
                   <hr></hr>
 
                   <div className ='categories'>
 
-
+                    <p> <MdCircle/> PlayStation Indies</p>
+                    <p> <MdCircle/> PS$ games on PS5</p>
+                    <p> <MdCircle/> Free to Play</p>
+                    <p> <MdCircle/> PlayStation games on PC</p>
+                    <p> <MdCircle/> Deals and offers</p>
 
                   </div>
 
 
-                  
+
 
                   </div>
 
