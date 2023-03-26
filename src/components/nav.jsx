@@ -3,7 +3,7 @@ import './nav.css'
 import {FaPlaystation} from 'react-icons/fa'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {RiArrowDropDownLine} from 'react-icons/ri'
-
+import ps5 from '../Pics/PS5.png'
 
 
 function nav() {
@@ -36,11 +36,52 @@ function nav() {
 
                 <div className="games">
                   
-                  <label className="options">Games <RiArrowDropDownLine className='dropdown'/> </label>
 
-                  <img src = '' className ='img-products'/>
+                  <div>
+
+                    <label className="options">Games <RiArrowDropDownLine className='dropdown'/> </label>
+
+                  </div>
+
+
+                  <div className = 'products'>
+
+
+                  <img src = {ps5} className ='img-products' alt = 'ps5'/>
 
                   <p>PS5</p>
+
+
+                  <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                  <p>PS4</p>
+
+                  <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                  <p>PS VR2</p>
+
+
+                  <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                  <p>PS PLUS</p>
+
+                  <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                  <p>BUY GAMES</p>
+
+                  <hr></hr>
+
+                  <div className ='categories'>
+
+
+
+                  </div>
+
+
+                  
+
+                  </div>
+
 
                   
 
