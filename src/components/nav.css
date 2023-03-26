@@ -33,14 +33,27 @@
 
     margin-right: 10px;
     cursor: pointer;
+    transition:all 0.2s 0.2s ease-in-out;
 
+}
+
+.options:hover{
+
+    color:rgba(0, 112, 209);
 }
 
 .dropdown{
 
     color:#999;
     font-size: 1.5rem;
+    transition:all 0.2s 0.2s ease-in-out;
     
+}
+
+.dropdown:hover{
+
+    color:rgba(0, 112, 209);
+
 }
 
 .right{
@@ -82,7 +95,18 @@
     flex-direction: column;
     align-items: center;
     /* display: none; */
-       
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hide-products{
+
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity:0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .line{

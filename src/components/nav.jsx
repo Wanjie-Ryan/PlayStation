@@ -14,6 +14,12 @@ function Nav() {
 
 
 
+  const show =()=>{
+
+    settoggle(!toggle)
+  }
+
+  const productclassname = toggle ? 'products' : 'hide-products'
   
   return (
 
@@ -41,7 +47,7 @@ function Nav() {
                 <div className="games">
                   
 
-                  <div onClick={()=> settoggle(!toggle)}>
+                  <div onClick={show}>
 
                     <label className="options">Games <RiArrowDropDownLine className='dropdown'/> </label>
 
@@ -119,7 +125,7 @@ function Nav() {
             </div>
 
 
-            {toggle && <div className = 'products'>
+             <div className = {productclassname}>
 
                     <div className="inner-products">
 
@@ -190,7 +196,7 @@ function Nav() {
 
             </div>
             
-            }
+            
 
 
             
