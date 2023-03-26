@@ -20,7 +20,7 @@
 .ps-icon{
     margin-right: 20px;
     font-size: 2.3rem;
-    color:rgb(0, 112, 209);
+    color:rgba(0, 112, 209);
     margin-top: 10px;
 }
 
@@ -39,6 +39,22 @@
 .right{
 
     margin-right: 20px;
+
+}
+
+.sign-in{
+
+    background-color:rgba(0, 112, 209);
+    color:white;
+    padding:10px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.search{
+
+    font-size: 1.2rem;
 
 }
 
