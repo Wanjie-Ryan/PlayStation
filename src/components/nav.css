@@ -94,12 +94,22 @@
 
     border:1px solid #999;
     padding:1rem;
+    width:400px;
 }
 
 .es label{
 
     text-align: center;
 }
+
+
+
+.es-hide{
+
+    display: none;
+
+}
+
 
 .line{
 
