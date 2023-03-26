@@ -2,6 +2,9 @@ import React from 'react'
 import './nav.css'
 import {FaPlaystation} from 'react-icons/fa'
 import {AiOutlineSearch} from 'react-icons/ai'
+import {RiArrowDropDownLine} from 'react-icons/ri'
+
+
 
 function nav() {
 
@@ -18,7 +21,7 @@ function nav() {
 
             <div className="main-header">
 
-                <p style = {{textAlign:'right', color:'white', fontSize:'1.3rem'}}>SONY</p>
+                <p style = {{textAlign:'right', color:'white', fontSize:'1.3rem', fontWeight:'bold'}}>SONY</p>
 
             </div>
 
@@ -29,12 +32,12 @@ function nav() {
 
                 <FaPlaystation className='ps-icon'/>
 
-                <label className="options">Games</label>
-                <label className="options">Hardware</label>
-                <label className="options">Services</label>
-                <label className="options">News</label>
-                <label className="options">Shop</label>
-                <label className="options">Support</label>
+                <label className="options">Games <RiArrowDropDownLine className='dropdown'/> </label>
+                <label className="options">Hardware <RiArrowDropDownLine className='dropdown'/> </label>
+                <label className="options">Services <RiArrowDropDownLine className='dropdown'/> </label>
+                <label className="options">News <RiArrowDropDownLine className='dropdown'/> </label>
+                <label className="options">Shop <RiArrowDropDownLine className='dropdown'/> </label>
+                <label className="options">Support <RiArrowDropDownLine className='dropdown'/> </label>
 
 
 
@@ -45,9 +48,9 @@ function nav() {
               <div className = 'right'>
 
 
-                <a href = '#home'>Sign In</a>
+                <a href = '#home' className='sign-in'>Sign In</a>
 
-                <AiOutlineSearch/>
+                <AiOutlineSearch className='search'/>
 
 
 
