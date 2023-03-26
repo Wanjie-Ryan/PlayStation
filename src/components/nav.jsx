@@ -44,55 +44,6 @@ function nav() {
 
                   </div>
 
-
-                  <div className = 'products'>
-
-                    
-
-
-                        <img src = {ps5} className ='img-products' alt = 'ps5'/>
-
-                        <p>PS5</p>
-
-
-                        <img src = {ps5} className ='img-products' alt = 'ps5'/>
-
-                        <p>PS4</p>
-
-                        <img src = {ps5} className ='img-products' alt = 'ps5'/>
-
-                        <p>PS VR2</p>
-
-
-                        <img src = {ps5} className ='img-products' alt = 'ps5'/>
-
-                        <p>PS PLUS</p>
-
-                        <img src = {ps5} className ='img-products' alt = 'ps5'/>
-
-                        <p>BUY GAMES</p>
-
-                  <hr></hr>
-
-                  <div className ='categories'>
-
-                    <p> <MdCircle/> PlayStation Indies</p>
-                    <p> <MdCircle/> PS$ games on PS5</p>
-                    <p> <MdCircle/> Free to Play</p>
-                    <p> <MdCircle/> PlayStation games on PC</p>
-                    <p> <MdCircle/> Deals and offers</p>
-
-                  </div>
-
-
-
-
-                  </div>
-
-
-                  
-
-
                 </div>
                   
 
@@ -133,11 +84,11 @@ function nav() {
 
                 </div>
 
-
-
-
-
               </div>
+
+
+
+              
 
 
               <div className = 'right'>
@@ -160,6 +111,72 @@ function nav() {
 
 
               </div>
+
+
+            </div>
+
+
+            <div className = 'products'>
+
+                    <div className="inner-products">
+
+                        <div className="child-products">
+
+                            <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                            <p>PS5</p>
+
+                        </div>
+
+                        <div className="child-products">
+
+                            <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                            <p>PS4</p>
+
+                        </div>
+
+
+                        <div className="child-products">
+
+                            <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                            <p>PS VR2</p>
+
+                        </div>
+
+                        <div className="child-products">
+
+                            <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                            <p>PS PLUS</p>
+
+                        </div>
+                        
+                        <div className="child-products">
+
+
+                            <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                            <p>BUY GAMES</p>
+
+                        </div>
+
+                    </div>
+
+
+
+                  <hr></hr>
+
+                  <div className ='categories'>
+
+                    <p> <MdCircle/> PlayStation Indies</p>
+                    <p> <MdCircle/> PS$ games on PS5</p>
+                    <p> <MdCircle/> Free to Play</p>
+                    <p> <MdCircle/> PlayStation games on PC</p>
+                    <p> <MdCircle/> Deals and offers</p>
+
+                  </div>
 
 
 
