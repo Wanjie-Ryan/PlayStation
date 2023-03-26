@@ -32,12 +32,59 @@ function nav() {
 
                 <FaPlaystation className='ps-icon'/>
 
-                <label className="options">Games <RiArrowDropDownLine className='dropdown'/> </label>
+
+
+                <div className="games">
+                  
+                  <label className="options">Games <RiArrowDropDownLine className='dropdown'/> </label>
+
+                  <img src = '' className ='img-products'/>
+
+                  <p>PS5</p>
+
+                  
+
+
+                </div>
+                  
+
+                <div className="hardware">
+
                 <label className="options">Hardware <RiArrowDropDownLine className='dropdown'/> </label>
+
+
+                </div>
+
+
+                <div className="services">
+
                 <label className="options">Services <RiArrowDropDownLine className='dropdown'/> </label>
+
+                </div>
+
+
+
+                <div className="news">
+
                 <label className="options">News <RiArrowDropDownLine className='dropdown'/> </label>
+
+                </div>
+
+                
+                <div className="shop">
+
                 <label className="options">Shop <RiArrowDropDownLine className='dropdown'/> </label>
+
+                </div>
+
+
+                <div className="support">
+
+
                 <label className="options">Support <RiArrowDropDownLine className='dropdown'/> </label>
+
+                </div>
+
 
 
 
@@ -55,7 +102,7 @@ function nav() {
                   </div>
                   
 
-                <div className="search">
+                <div className="searchbtn">
 
                   <AiOutlineSearch className='search'/>
 
