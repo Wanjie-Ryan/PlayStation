@@ -90,7 +90,32 @@
 }
 
 
+.es{
 
+    border:1px solid #999;
+    padding:1rem;
+}
+
+.es label{
+
+    text-align: center;
+}
+
+.line{
+
+    height:2px;
+    color:#999;
+}
+
+.searching{
+
+    border:none;
+}
+
+.searching::placeholder{
+
+    font-size: 13px;
+}
 
 
 

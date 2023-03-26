@@ -153,6 +153,7 @@ function Nav() {
                     <div className="es">
 
                         <label>PlayStation.com <RiArrowDropDownLine className='dropdown'/></label>
+                        <span className="line"></span>
                         <input type="text" placeholder ='Search PlayStation.com ' className="searching" />
                         <AiOutlineSearch className='search'/>
 
