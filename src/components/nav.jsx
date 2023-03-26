@@ -49,7 +49,12 @@ function Nav() {
 
   const [search, setsearch] = useState(false)
 
-  
+  const showsearch =()=>{
+
+    setsearch(!search)
+  }
+
+  const searchclass = search ? 'es' : 'es-hide'
 
 
 
@@ -157,13 +162,13 @@ function Nav() {
 
 
 
-                  <div className="expanded-search">
+                  <div className='expanded-search' >
 
-                    <div className="es" onClick={showsearch}>
+                    <div className={searchclass} >
 
                         <div className="lbl-com">
                           
-                        <label>PlayStation.com <RiArrowDropDownLine className='dropdown'/></label>
+                        <label>PlayStation.com <RiArrowDropDownLine className='dropdown' onClick={showsearch}/></label>
 
                         </div>
 
