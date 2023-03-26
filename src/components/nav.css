@@ -95,8 +95,8 @@
     flex-direction: column;
     align-items: center;
     /* display: none; */
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out;
+    /* opacity: 1; */
+    transition: display 0.5s ease-in-out;
 }
 
 .hide-products{
@@ -105,8 +105,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* opacity:0; */
+    display: none;
+    transition: display 0.5s ease-in-out;
+}
+
+.hardware-products{
+
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* display: none; */
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+.hidehardware-products{
+
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     opacity:0;
     transition: opacity 0.5s ease-in-out;
+
 }
 
 .line{

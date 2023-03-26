@@ -20,6 +20,18 @@ function Nav() {
   }
 
   const productclassname = toggle ? 'products' : 'hide-products'
+
+
+  const [Toggle, setToggle] = useState(false)
+
+
+
+  const showhardware =()=>{
+
+    setToggle(!Toggle)
+  }
+
+  const hardwareclassname = Toggle ? 'hardware-products' : 'hidehardware-products'
   
   return (
 
@@ -58,7 +70,7 @@ function Nav() {
 
                 <div className="hardware">
 
-                <div onClick={show}>
+                <div onClick={showhardware}>
 
                   <label className="options">Hardware <RiArrowDropDownLine className='dropdown'/> </label>
 
@@ -206,7 +218,7 @@ function Nav() {
 
 
 
-            <div className = {productclassname}>
+            <div className = {hardwareclassname}>
 
                     <div className="inner-products">
 
