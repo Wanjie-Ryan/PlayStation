@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './nav.css'
 import {FaPlaystation} from 'react-icons/fa'
 import {AiOutlineSearch} from 'react-icons/ai'
@@ -7,8 +7,19 @@ import ps5 from '../Pics/PS5.png'
 import {MdCircle} from 'react-icons/md'
 
 
-function nav() {
+function Nav() {
 
+
+  const [toggle, settoggle] = useState(false)
+
+
+
+  const show = ()=>{
+
+
+
+
+  }
 
 
 
@@ -38,7 +49,7 @@ function nav() {
                 <div className="games">
                   
 
-                  <div>
+                  <div onClick={show}>
 
                     <label className="options">Games <RiArrowDropDownLine className='dropdown'/> </label>
 
@@ -166,15 +177,19 @@ function nav() {
 
 
 
-                  <hr></hr>
+                  <div className="line"></div>
 
                   <div className ='categories'>
 
-                    <p> <MdCircle/> PlayStation Indies</p>
-                    <p> <MdCircle/> PS$ games on PS5</p>
-                    <p> <MdCircle/> Free to Play</p>
-                    <p> <MdCircle/> PlayStation games on PC</p>
-                    <p> <MdCircle/> Deals and offers</p>
+                    <p> <MdCircle className='md-circle'/> PlayStation Indies</p>
+
+                    <p> <MdCircle className='md-circle'/> PS4 games on PS5</p>
+
+                    <p> <MdCircle className='md-circle'/> Free to Play</p>
+
+                    <p> <MdCircle className='md-circle'/> PlayStation games on PC</p>
+
+                    <p> <MdCircle className='md-circle'/> Deals and offers</p>
 
                   </div>
 
@@ -205,4 +220,4 @@ function nav() {
   )
 }
 
-export default nav
+export default Nav

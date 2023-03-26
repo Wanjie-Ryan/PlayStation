@@ -78,9 +78,19 @@
 .products{
 
     margin-top:30px;
-    margin-left: auto;
-    margin-right: auto;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+       
+}
+
+.line{
+
+    width:100%;
+    height: 2px;
+    background-color: #999;
+    margin-top: 5px;
 }
 
 .inner-products{
@@ -93,21 +103,32 @@
 .child-products{
 
     margin-right: 4rem;
+}
 
+.child-products p{
+
+    font-weight: 600;
 }
 
 .categories{
 
     display: flex;
+    margin-top: 12px;
     
 }
 
 .categories p{
     margin-right: 1.5rem;
+    font-weight: 600;
 }
 
 .img-products{
 
     height:2.8rem;
+}
+
+.md-circle{
+
+    color:rgba(0, 112, 209);
 }
 
