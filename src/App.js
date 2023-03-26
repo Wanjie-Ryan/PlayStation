@@ -1,4 +1,5 @@
 import React from 'react'
+import Nav from '../src/components/nav'
 
 
 
@@ -12,7 +13,7 @@ function App() {
 
 
 
-      <div>App</div>
+      <Nav/>
 
 
 
