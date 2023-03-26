@@ -44,6 +44,9 @@ function Nav() {
   }
 
   const serviceclassname = Toggleservice ? 'service-products' : 'hideservice-products'
+
+
+
   
   
   return (
@@ -155,7 +158,11 @@ function Nav() {
                         <label>PlayStation.com <RiArrowDropDownLine className='dropdown'/></label>
                         <span className="line"></span>
                         <input type="text" placeholder ='Search PlayStation.com ' className="searching" />
-                        <AiOutlineSearch className='search'/>
+
+                       <div className='outline-search'>
+                        <AiOutlineSearch className='search btn-search'/>
+                       </div>
+                        
 
                     </div>
 

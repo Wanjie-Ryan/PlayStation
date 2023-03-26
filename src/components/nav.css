@@ -81,12 +81,36 @@
     margin-right: 10px;
 }
 
+.outline-search{
+
+    display: inline-block;
+    
+}
+
+.btn-search{
+
+    background-color: rgba(0, 112, 209);
+    
+}
+
+.searchbtn{
+
+    position: relative;
+}
+
 .search{
 
     font-size: 1.7rem;
     margin-top: 10px;
     cursor:pointer;
 
+}
+
+.expanded-search{
+
+    position: absolute;
+    top:5.2rem;
+    right:1rem;
 }
 
 
