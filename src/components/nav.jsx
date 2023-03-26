@@ -14,15 +14,7 @@ function Nav() {
 
 
 
-  const show = ()=>{
-
-
-
-
-  }
-
-
-
+  
   return (
 
 
@@ -49,7 +41,7 @@ function Nav() {
                 <div className="games">
                   
 
-                  <div onClick={show}>
+                  <div onClick={()=> settoggle(!toggle)}>
 
                     <label className="options">Games <RiArrowDropDownLine className='dropdown'/> </label>
 
@@ -127,7 +119,7 @@ function Nav() {
             </div>
 
 
-            <div className = 'products'>
+            {toggle && <div className = 'products'>
 
                     <div className="inner-products">
 
@@ -197,6 +189,8 @@ function Nav() {
 
 
             </div>
+            
+            }
 
 
             
