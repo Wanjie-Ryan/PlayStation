@@ -158,7 +158,7 @@ function Nav() {
 
                 <div className="searchbtn">
 
-                  <AiOutlineSearch className='search'/>
+                  <AiOutlineSearch className='search' onClick={showsearch}/>
 
 
 
@@ -168,7 +168,7 @@ function Nav() {
 
                         <div className="lbl-com">
                           
-                        <label>PlayStation.com <RiArrowDropDownLine className='dropdown' onClick={showsearch}/></label>
+                        <label>PlayStation.com <RiArrowDropDownLine className='dropdown' /></label>
 
                         </div>
 
