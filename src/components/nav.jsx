@@ -48,9 +48,18 @@ function nav() {
               <div className = 'right'>
 
 
-                <a href = '#home' className='sign-in'>Sign In</a>
+                <div className="btn">
+                  
+                  <a href = '#home' className='sign-in'>Sign In</a>
 
-                <AiOutlineSearch className='search'/>
+                  </div>
+                  
+
+                <div className="search">
+
+                  <AiOutlineSearch className='search'/>
+
+                </div>
 
 
 
