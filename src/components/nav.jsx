@@ -58,7 +58,11 @@ function Nav() {
 
                 <div className="hardware">
 
-                <label className="options">Hardware <RiArrowDropDownLine className='dropdown'/> </label>
+                <div onClick={show}>
+
+                  <label className="options">Hardware <RiArrowDropDownLine className='dropdown'/> </label>
+
+                </div>
 
 
                 </div>
@@ -195,6 +199,68 @@ function Nav() {
 
 
             </div>
+
+
+
+                   {/* FOR THE HARDWARE */}
+
+
+
+            <div className = {productclassname}>
+
+                    <div className="inner-products">
+
+                        <div className="child-products">
+
+                            <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                            <p>PS5</p>
+
+                        </div>
+
+                        <div className="child-products">
+
+                            <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                            <p>PS4</p>
+
+                        </div>
+
+
+                        <div className="child-products">
+
+                            <img src = {ps5} className ='img-products' alt = 'ps5'/>
+
+                            <p>PS VR2</p>
+
+                        </div>
+
+                    </div>
+
+
+
+                  <div className="line"></div>
+
+                  <div className ='categories'>
+
+                    <p> <MdCircle className='md-circle'/> DualSense Wireless Controller</p>
+
+                    <p> <MdCircle className='md-circle'/> PULSE 3D wireless headset</p>
+
+                    <p> <MdCircle className='md-circle'/> DUALSHOCK 4 wireless controller</p>
+
+                    <p> <MdCircle className='md-circle'/> PS5 & PS4 accessories</p>
+
+                    <p> <MdCircle className='md-circle'/> PlayStation VR</p>
+
+                  </div>
+
+
+
+
+            </div>
+            
+            
             
             
 
