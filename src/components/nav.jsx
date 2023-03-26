@@ -104,26 +104,26 @@ function Nav() {
 
 
 
-                <div className="news">
+                {/* <div className="news">
 
                 <label className="options">News <RiArrowDropDownLine className='dropdown'/> </label>
 
-                </div>
+                </div> */}
 
                 
-                <div className="shop">
+                {/* <div className="shop">
 
                 <label className="options">Shop <RiArrowDropDownLine className='dropdown'/> </label>
 
-                </div>
+                </div> */}
 
 
-                <div className="support">
+                {/* <div className="support">
 
 
                 <label className="options">Support <RiArrowDropDownLine className='dropdown'/> </label>
 
-                </div>
+                </div> */}
 
               </div>
 
@@ -145,6 +145,23 @@ function Nav() {
                 <div className="searchbtn">
 
                   <AiOutlineSearch className='search'/>
+
+
+
+                  <div className="expanded-search">
+
+                    <div className="es">
+
+                        <label>PlayStation.com <RiArrowDropDownLine className='dropdown'/></label>
+                        <input type="text" placeholder ='Search PlayStation.com ' className="searching" />
+                        <AiOutlineSearch className='search'/>
+
+                    </div>
+
+
+
+                  </div>
+
 
                 </div>
 
@@ -303,7 +320,7 @@ function Nav() {
 
                             <img src = {ps5} className ='img-products' alt = 'ps5'/>
 
-                            <p>PS5</p>
+                            <p>PS Plus</p>
 
                         </div>
 
@@ -311,18 +328,10 @@ function Nav() {
 
                             <img src = {ps5} className ='img-products' alt = 'ps5'/>
 
-                            <p>PS4</p>
+                            <p>PS Stars</p>
 
                         </div>
 
-
-                        <div className="child-products">
-
-                            <img src = {ps5} className ='img-products' alt = 'ps5'/>
-
-                            <p>PS VR2</p>
-
-                        </div>
 
                     </div>
 
@@ -332,20 +341,12 @@ function Nav() {
 
                   <div className ='categories'>
 
-                    <p> <MdCircle className='md-circle'/> DualSense Wireless Controller</p>
+                    <p> <MdCircle className='md-circle'/> PS5 Entertainment</p>
 
-                    <p> <MdCircle className='md-circle'/> PULSE 3D wireless headset</p>
+                    <p> <MdCircle className='md-circle'/> PS4 Entertainment</p>
 
-                    <p> <MdCircle className='md-circle'/> DUALSHOCK 4 wireless controller</p>
-
-                    <p> <MdCircle className='md-circle'/> PS5 & PS4 accessories</p>
-
-                    <p> <MdCircle className='md-circle'/> PlayStation VR</p>
 
                   </div>
-
-
-
 
             </div>
             
