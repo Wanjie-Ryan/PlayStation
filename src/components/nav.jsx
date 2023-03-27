@@ -168,11 +168,19 @@ function Nav() {
 
                         <div className="lbl-com">
                           
-                        <label>PlayStation.com <RiArrowDropDownLine className='dropdown' /></label>
+                          <div className="sta com">
+                            
+                          <label>PlayStation.com </label>
+                          </div>
+
+                        <div className="dropdown-arrow"> <RiArrowDropDownLine className='dropdown' /> </div>
 
                         </div>
 
+                        <div className="lines">
+                          
                         <span className="line"></span>
+                        </div>
 
 
                         <div className="input">

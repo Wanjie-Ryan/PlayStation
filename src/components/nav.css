@@ -119,14 +119,20 @@
 .es{
 
     border:1px solid #999;
-    padding:1rem;
+    /* padding:1rem; */
     width:400px;
+    height: 6vh;
     display: flex;
+    align-items: center;
 }
 
 .lbl-com{
 
-    width:70px
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    border-right:1px solid #999;
+    
 }
 
 .input{
