@@ -46,9 +46,6 @@ function Samplegames() {
         }
 
 
-
-
-
     ]
 
 
@@ -58,7 +55,7 @@ function Samplegames() {
 
     <>
 
-        <main className="main-sec">
+        { games.map(())  <main className="main-sec">
 
             <div className="main-games">
 
@@ -92,7 +89,7 @@ function Samplegames() {
 
 
 
-        </main>
+        </main>}
 
 
 
