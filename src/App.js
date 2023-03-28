@@ -1,6 +1,6 @@
 import React from 'react'
-import Nav from '../src/components/nav'
-
+import Nav from './components/nav/nav'
+import Samplegames from './components/gaming/samplegames'
 
 
 function App() {
@@ -14,6 +14,8 @@ function App() {
 
 
       <Nav/>
+
+      <Samplegames/>
 
 
 

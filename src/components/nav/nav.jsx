@@ -3,7 +3,7 @@ import './nav.css'
 import {FaPlaystation} from 'react-icons/fa'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {RiArrowDropDownLine} from 'react-icons/ri'
-import ps5 from '../Pics/PS5.png'
+import ps5 from '../../Pics/PS5.png'
 import {MdCircle} from 'react-icons/md'
 
 
