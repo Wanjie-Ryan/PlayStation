@@ -49,14 +49,18 @@ function Nav() {
 
   const [search, setsearch] = useState(false)
 
+  const [showbackdrop, setshowbackdrop] =useState(false)
+
   const showsearch =()=>{
 
     setsearch(!search)
+    
+    setshowbackdrop(!showbackdrop)
   }
 
-  const searchclass = search ? 'es' : 'es-hide'
+  const searchclass = search ? 'es ' : 'es-hide'
 
-
+  const backdropclass = showbackdrop ? 'back-drop':''
 
   
   
@@ -162,7 +166,9 @@ function Nav() {
 
 
 
-                  <div className='expanded-search' >
+                  {/* 'expanded-search back-drop' */}
+
+                  <div className= { ` expanded-search ${backdropclass}` }>
 
                     <div className={searchclass} >
 
