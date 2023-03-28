@@ -54,47 +54,53 @@ function Samplegames() {
 
 
     <>
+                <main className="main-sec">
 
-        { games.map(({id, name, img,experience, description })=>{
-            
-            return(
+                        { games.map(({id, name, img,experience, description })=>{
+                            
+                            return(
+
+                                <section className="components"  key ={id}>
 
 
-              <main className="main-sec" key ={id}>
-            
-                <div className="main-games">
-            
-                    <img src={img} alt="games" className="img" />
-            
-                </div>
-                
-            
-                    <div className="content">
-            
-            
-            
-                            <div className="tchia">
-                                <p>{name}</p>
-                            </div>
-            
-                            <div className="exp">
-                                <p>{experience}</p>
-                            </div>
-            
-            
-                            <div className="desc">
-                                <p>{description}</p>
-                            </div>
-            
-                            <button className="more"> Find out more </button>
-            
-            
-                    </div>
-            
-            
-            
-            
-            </main>)})}
+                            
+                                        <div className="main-games">
+                                    
+                                            <img src={img} alt="games" className="img" />
+                                    
+                                        </div>
+                                        
+                                    
+                                            <div className="content">
+                                    
+                                    
+                                    
+                                                    <div className="tchia">
+                                                        <p>{name}</p>
+                                                    </div>
+                                    
+                                                    <div className="exp">
+                                                        <p>{experience}</p>
+                                                    </div>
+                                    
+                                    
+                                                    <div className="desc">
+                                                        <p>{description}</p>
+                                                    </div>
+                                    
+                                                    <button className="more"> Find out more </button>
+                                    
+                                    
+                                            </div>
+                                    
+                                    
+                            
+                            
+                                </section>)})}
+                            
+
+
+                </main>
 
 
 
