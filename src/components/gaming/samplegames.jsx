@@ -11,11 +11,20 @@ function Samplegames() {
 
 
         {
+            id:1,
+            name: 'Tchia',
+            img: '../../Pics/Tchia.webp',
+            experience: 'A unique tropical adventure',
+            description:'Prepare to climb, swim, glide and sail your way around a beautiful open-world, available now with PlayStation Plus Extra & Premium tiers'
 
-            img: ''
 
+        },
 
+        {
 
+            id:2,
+            name: 'Resident Evil 4',
+            img:'../../Pics/resident evil.jpg'
         }
 
 
