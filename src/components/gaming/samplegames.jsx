@@ -1,10 +1,27 @@
 import React from 'react'
 import './samplegames.css'
-
+import Tchia from '../../Pics/Tchia.webp'
 
 
 
 function Samplegames() {
+
+
+    const games  = [
+
+
+        {
+
+            img: ''
+
+
+
+        }
+
+
+
+
+    ]
 
 
 
@@ -15,7 +32,12 @@ function Samplegames() {
 
         <main className="main-sec">
 
-            <section className="main-games">
+            <div className="main-games">
+
+                <img src={Tchia} alt="games" className="img" />
+
+            </div>
+            
 
                 <div className="content">
 
@@ -42,24 +64,7 @@ function Samplegames() {
 
 
 
-            </section>
-
-
-
-
-
-
         </main>
-
-
-
-
-
-
-
-
-
-
 
 
 

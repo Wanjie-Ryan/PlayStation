@@ -15,9 +15,11 @@
 
 
 
-.main-games{
+.main-games img{
 
-    background: url('../../Pics/Tchia.webp');
+    /* background: url('../../Pics/Tchia.webp'); */
+    margin-top: 3rem;
+    position: relative;
     height:100%;
     width:100%;
     background-size: cover;
@@ -27,6 +29,7 @@
 
 .content{
 
+    position: absolute;
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
