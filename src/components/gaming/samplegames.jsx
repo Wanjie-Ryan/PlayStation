@@ -13,7 +13,30 @@ function Samplegames() {
 
     <>
 
+        <main className="main-sec">
 
+            <section className="main-games">
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </section>
+
+
+
+
+
+
+        </main>
 
 
 
