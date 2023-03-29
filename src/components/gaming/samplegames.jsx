@@ -69,6 +69,8 @@ function Samplegames() {
                                             <img src={img} alt="games" className="img" />
                                     
                                         </div>
+
+                                        {/* mapping elements */}
                                         
                                     
                                             <div className="content">
