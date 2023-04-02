@@ -52,7 +52,7 @@ function Samplegames() {
 
     ]
 
-    // console.log(games)
+    console.log(games)
 
 
 
@@ -71,15 +71,15 @@ function Samplegames() {
                 
                 >
 
-                        { games.map(({id, name, img,experience, description })=>{
+                        { games.map(items=>(
                             
-                            return(
+                            // return(
 
-                                <SwiperSlide className="components"  key ={id}>
+                                <SwiperSlide className="components"  key = {items.id}>
 
                                         <div className="main-games">
                                     
-                                            <img src={img} alt="games" className="img" />
+                                            <img src={items.img} alt="games" className="img" />
                                     
                                         </div>
 
@@ -89,16 +89,16 @@ function Samplegames() {
                                             <div className="content">
                                     
                                                     <div className="tchia">
-                                                        <p>{name}</p>
+                                                        <p>{items.name}</p>
                                                     </div>
                                     
                                                     <div className="exp">
-                                                        <p>{experience}</p>
+                                                        <p>{items.experience}</p>
                                                     </div>
                                     
                                     
                                                     <div className="desc">
-                                                        <p>{description}</p>
+                                                        <p>{items.description}</p>
                                                     </div>
                                     
                                                     <button className="more"> Find out more </button>
@@ -106,7 +106,7 @@ function Samplegames() {
                                     
                                             </div>
                                 
-                                </SwiperSlide>)})}
+                                </SwiperSlide>))}
                         
                 </Swiper>
 
@@ -118,6 +118,11 @@ function Samplegames() {
 
 
   )
+
+
+
+
+
 }
 
 export default Samplegames
