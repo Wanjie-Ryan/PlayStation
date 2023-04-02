@@ -71,9 +71,9 @@ function Samplegames() {
                 
                 >
 
-                        { games.map(items=>(
+                        { games.map((items)=>{
                             
-                            // return(
+                            return(
 
                                 <SwiperSlide className="components"  key = {items.id}>
 
@@ -106,7 +106,7 @@ function Samplegames() {
                                     
                                             </div>
                                 
-                                </SwiperSlide>))}
+                                </SwiperSlide>)})}
                         
                 </Swiper>
 
