@@ -77,6 +77,7 @@ function Samplegames() {
                                     
                                     
                                     
+                                    
                                                     <div className="tchia">
                                                         <p>{name}</p>
                                                     </div>
