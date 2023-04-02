@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './samplegames.css'
 import { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 function Samplegames() {
 
 
-    const games  = [
+    const [games, setgames]  =useState( [
 
 
         {
@@ -50,7 +50,7 @@ function Samplegames() {
         }
 
 
-    ]
+    ])
 
     console.log(games)
 
