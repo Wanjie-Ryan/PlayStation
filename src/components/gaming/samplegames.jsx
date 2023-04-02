@@ -52,7 +52,7 @@ function Samplegames() {
 
     ]
 
-    console.log(games)
+    // console.log(games)
 
 
 
@@ -109,6 +109,9 @@ function Samplegames() {
                                 </SwiperSlide>)})}
                         
                 </Swiper>
+
+
+                
     </>
 
 

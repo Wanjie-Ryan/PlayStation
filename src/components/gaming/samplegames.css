@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Gloria+Hallelujah&family=Mulish&family=Poppins:wght@300;400;500;600&family=Shantell+Sans&display=swap');
 
 
-.main-sec{
+Swiper .main-sec{
 
     display: flex;
     align-items: center;
@@ -15,6 +15,13 @@
 
 
 /* background: url('../../Pics/Tchia.webp'); */
+
+
+SwiperSlide .components{
+
+    height:100%;
+    width:100%;
+}
 
 .main-games img{
 
