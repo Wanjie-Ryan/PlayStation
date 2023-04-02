@@ -1,6 +1,10 @@
 import React from 'react'
 import './samplegames.css'
-
+import { Navigation, Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 
 
@@ -48,22 +52,31 @@ function Samplegames() {
 
     ]
 
+    console.log(games)
+
 
 
   return (
 
 
     <>
-                <main className="main-sec">
+                <Swiper 
+                
+                className="main-sec"
+                modules={[Navigation, Pagination]}
+                spaceBetween={40}
+                slidesPerView={1}
+                navigation
+                pagination={{ clickable: true }}
+                
+                >
 
                         { games.map(({id, name, img,experience, description })=>{
                             
                             return(
 
-                                <section className="components"  key ={id}>
+                                <SwiperSlide className="components"  key ={id}>
 
-
-                            
                                         <div className="main-games">
                                     
                                             <img src={img} alt="games" className="img" />
@@ -74,9 +87,6 @@ function Samplegames() {
                                         
                                     
                                             <div className="content">
-                                    
-                                    
-                                    
                                     
                                                     <div className="tchia">
                                                         <p>{name}</p>
@@ -95,22 +105,10 @@ function Samplegames() {
                                     
                                     
                                             </div>
-                                    
-                                    
-                            
-                            
-                                </section>)})}
-                            
-
-
-                </main>
-
-
-
-            
-
-
-
+                                
+                                </SwiperSlide>)})}
+                        
+                </Swiper>
     </>
 
 
