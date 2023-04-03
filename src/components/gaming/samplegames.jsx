@@ -84,6 +84,8 @@ function Samplegames() {
                                         </div>
 
                                         {/* mapping elements */}
+
+                                        {/* mapping has problem */}
                                         
                                     
                                             <div className="content">
