@@ -8,22 +8,15 @@ Swiper .main-sec{
     align-items: center;
     justify-content: flex-start;
     margin-top: 1rem;
-    /* height:70vh;
-    width:100vw; */
-   
+     height:70vh;
+    width:100vw; 
+    
 }
 
 
 /* background: url('../../Pics/Tchia.webp'); */
 
 
-SwiperSlide .components{
-
-    
-
-    height:70vh;
-    width:100vw;
-}
 
 .main-games img{
 

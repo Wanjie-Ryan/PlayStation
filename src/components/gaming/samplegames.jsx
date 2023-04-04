@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
+import resEvil from '../../Pics/resident evil.jpg'
 
 
 function Samplegames() {
@@ -60,26 +60,17 @@ function Samplegames() {
 
 
     <>
-                <Swiper 
-                
-                className="main-sec"
-                modules={[Navigation, Pagination]}
-                spaceBetween={40}
-                slidesPerView={1}
-                navigation
-                pagination={{ clickable: true }}
-                
-                >
+                <main className="main-sec">
 
-                        { games.map((items)=>{
+                        {/* { games.map((items)=>{ */}
                             
-                            return(
+                           
 
-                                <SwiperSlide className="components"  key = {items.id}>
+                                <section className="components"  >
 
                                         <div className="main-games">
                                     
-                                            <img src={items.img} alt="games" className="img" />
+                                            <img src={resEvil} alt="games" className="img" />
                                     
                                         </div>
 
@@ -91,16 +82,16 @@ function Samplegames() {
                                             <div className="content">
                                     
                                                     <div className="tchia">
-                                                        <p>{items.name}</p>
+                                                        <p>Resident Evil 4</p>
                                                     </div>
                                     
                                                     <div className="exp">
-                                                        <p>{items.experience}</p>
+                                                        <p>Survival is just the beginning</p>
                                                     </div>
                                     
                                     
                                                     <div className="desc">
-                                                        <p>{items.description}</p>
+                                                        <p>Experience a thrilling reimagining of the action-horror classic, featuring modernized gameplay, a reimagined story & spectacular visuals</p>
                                                     </div>
                                     
                                                     <button className="more"> Find out more </button>
@@ -108,9 +99,9 @@ function Samplegames() {
                                     
                                             </div>
                                 
-                                </SwiperSlide>)})}
+                                </section>
                         
-                </Swiper>
+                </main>
 
 
                 
